@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Amiri:ital,wght@0,400;0,700;1,400;1,700&display=swap');
+
+body{
+  background-color: #A1608C;
+}
+
+.container-card{
+display: flex;
+flex-direction: column;
+align-items: center;
+justify-content: center;
+}
+.card-content{
+  width: 750px;
+  display: flex;
+  flex-direction: column;
+  padding: 10px;
+}
+.card{
+  box-shadow: 1px 3px 3px 1px rgba(253, 253, 253, 0.2);
+    background-color: #D9BCD6;
+
+}
+.date{
+    color:#D9BCD6;
+    margin-top:  50px;
+      font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.header-card{
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  padding: 5px;
+}
+.header-card h3{
+      color:#A1608C;
+  font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+.input-card{
+padding: 20px;
+display: flex;
+gap: 10px;
+}
+.input-card input{
+    width: 85%;
+    outline: none;
+    border: none;
+    border-radius: 2px;
+    background-color: #e8e8e8;
+    padding: 10px;
+    border-radius: 15px;
+     font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: normal;
+
+}
+.input-card input:focus{
+  border: 1px solid rgb(250, 250, 250);
+}
+.input-card button{
+    color: #ccc8c8;
+    padding: 5px;
+    cursor: pointer;
+    background-color: #A1608C;
+    color: black;
+    border-radius: 20px;
+    font-size: 20px;
+    width: 10%;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   border: none;
+}
+.list-details{
+      color:#D9BCD6;
+     font-family: "Amiri", serif;
+  font-weight: 700;
+  font-style: normal;
+    }
+.clear-button{
+  border: none;
+  padding: 10px;
+  border-radius: 20px;
+  background-color: #D9BCD6;
+  font-size: 20px;
+
+}
+.list-description{
+ border-radius: 15px;
+  background-color: #e8e8e8;
+}
+.list-description h6{
+  color: rgb(123, 122, 122);
+}
+.list-description span{
+  margin: 5px;
+  cursor: pointer;
+}
