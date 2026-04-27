@@ -1,6 +1,6 @@
 import React from 'react'
 import ToddoItem from './ToddoItem'
-const TodoList = ({allItems, clear, deleteTask}) => {
+const TodoList = ({allItems, clear, deleteTask, editTask}) => {
   return (
     <>
     <ul className='list-group my-5'>
@@ -11,7 +11,7 @@ const TodoList = ({allItems, clear, deleteTask}) => {
             key={tasks.id} 
             title={tasks.title} 
             deleteSpecificTask={()=> deleteTask(tasks.id)}
-             editSpecificTask={()=> deleteTask(tasks.id)}
+             editSpecificTask={()=> editTask(tasks.id)}
             />
         })}
         

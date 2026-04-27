@@ -13,7 +13,7 @@ const TodoInput = ({item,changingInput,submit, objectButton }) => {
         <form onSubmit={submit}>
          <div className="input-card">
         <input type="text" value={item} onChange={changingInput} placeholder='أضف التاسك' />
-       <button type='submit'><span>{objectButton? 'Save':'+'}</span></button> 
+       <button type='submit'><span>{objectButton? 'حفظ':'+'}</span></button> 
        </div>
 
        </form>
