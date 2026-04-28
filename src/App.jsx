@@ -96,15 +96,16 @@ function App() {
 
     
 return (
-    <section className='container-card'>
+<section className='container-card'> 
+    <div className='card-content'>
      <h2 className='text-center date'>{days} - {todayDate} {months} {year}</h2>
-     <div className="card-content">
         <TodoInput item={item.item} changingInput={changingInput} submit={handleSubmit} objectButton={item.editItem} />
         <TodoList allItems={item.items} clear={clearList} deleteTask={handleDelete} editTask={handleEdit}/>
-     </div>
 
       {/* <CardBox/> */}
-    </section>
+    </div>
+</section>
+
   )
 }
 
